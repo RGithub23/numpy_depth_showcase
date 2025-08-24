@@ -12,17 +12,6 @@ Method to mimic a MiDaS-style depth-from-image demo without machine learning, us
 numpy_depth_showcase.ipynb: Jupyter notebook
 
 ---
-
-## Features
-
-Vectorized grayscale conversion and normalization
-Sobel edge magnitude via 2D convolution with numpy.lib.stride_tricks.sliding_window_view
-Gaussian blur implemented in pure NumPy
-A simple heuristic "depth" map blended from inverted luminance, edges, and a radial prior
-Surface normals from np.gradient
-A simple pinhole projection to 3D point-cloud arrays (X, Y, Z)
-
----
 ## Requirements
 
 This Colab notebook automatically installs all necessary dependencies
