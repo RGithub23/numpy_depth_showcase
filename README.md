@@ -1,5 +1,5 @@
 # NumPy_depth_showcase
-This Numpy showcase demostrates a method to mimic a MiDaS-style depth-from-image demo without machine learning, using transparent NumPy steps. It involves loading and normalizing an image, computing feature maps, generating a heuristic depth blend, regularizing, computing gradients, and converting the depth map into coordinate grids for 3D visualization.
+This NumPy showcase demostrates a method to mimic a MiDaS-style depth-from-image demo without machine learning, using transparent NumPy steps. It involves loading and normalizing an image, computing feature maps, generating a heuristic depth blend, regularizing, computing gradients, and converting the depth map into coordinate grids for 3D visualization.
 
 ## Try it out in Google Colab as primarily built here!
 
